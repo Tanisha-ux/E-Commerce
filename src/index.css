@@ -317,10 +317,148 @@
   cursor: pointer;
 }
 
-/* Footer */
-.navfooter{
-    margin-top:40px;
-    height:200px;
-    background-color: #663F46;
-    
+
+
+/* ================= FOOTER ================= */
+
+footer {
+  background-color: #663F47 !important;  /* Same as navbar */
+  color: #E8F7EE;
+}
+
+/* Footer Headings */
+footer h5 {
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #E8F7EE;
+}
+
+/* Paragraph */
+footer p {
+  font-size: 14px;
+  color: #E8F7EE;
+}
+
+/* Links */
+footer ul li {
+  margin-bottom: 8px;
+}
+
+footer ul li a {
+  color: #E8F7EE !important;
+  transition: all 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: white !important;
+  padding-left: 6px;
+}
+
+/* Social Icons */
+footer .bi {
+  transition: transform 0.3s ease, color 0.3s ease;
+  color: #E8F7EE;
+}
+
+footer .bi:hover {
+  transform: scale(1.2);
+  color: white;
+}
+
+/* Divider line */
+footer hr {
+  border-color: #8E676E;
+}
+
+/* Bottom copyright */
+footer .text-center {
+  font-size: 13px;
+  color: #E8F7EE;
+}
+
+/* Optional: Slight darker bottom strip */
+footer .footer-bottom {
+  background-color: #8E676E;
+}
+
+
+
+/* ----AUTH----- */
+.auth-container {
+  height: 100vh;
+  background: linear-gradient(135deg, #663F47, #8E676E);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-card {
+  background: white;
+  padding: 40px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.auth-card h2 {
+  margin-bottom: 25px;
+  color: #663F47;
+}
+
+.input-group {
+  margin-bottom: 18px;
+  text-align: left;
+}
+
+.input-group label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #663F47;
+  box-shadow: 0 0 5px rgba(102, 63, 71, 0.4);
+}
+
+.auth-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #663F47;
+  color: #E8F7EE;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.auth-btn:hover {
+  background-color: #8E676E;
+}
+
+.auth-link {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.auth-link a {
+  color: #663F47;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.auth-link a:hover {
+  text-decoration: underline;
 }

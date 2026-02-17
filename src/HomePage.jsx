@@ -128,12 +128,73 @@ function HomePage()
 
 
 
+      {/* FOOTER */}
+      
+        <footer className=" pt-4 mt-5">
+      <div className="container">
+        <div className="row">
 
-      <footer>
-        <div className="navfooter">
-          
+          {/* About Section */}
+          <div className="col-md-4 mb-3">
+            <h5>MyStore</h5>
+            <p>
+              Your trusted platform for quality products at the best prices.
+            </p>
+          </div>
+
+          {/* Quick Links */}
+          <div className="col-md-4 mb-3">
+            <h5>Quick Links</h5>
+            <ul className="list-unstyled">
+              <li>
+                <a href="#" className="text-light text-decoration-none">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-light text-decoration-none">
+                  Products
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-light text-decoration-none">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-light text-decoration-none">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Social Media */}
+          <div className="col-md-4 mb-3">
+            <h5>Follow Us</h5>
+            <a href="#" className="text-light me-3 fs-4">
+              <i className="bi bi-facebook"></i>
+            </a>
+            <a href="#" className="text-light me-3 fs-4">
+              <i className="bi bi-instagram"></i>
+            </a>
+            <a href="#" className="text-light me-3 fs-4">
+              <i className="bi bi-twitter-x"></i>
+            </a>
+            <a href="#" className="text-light fs-4">
+              <i className="bi bi-linkedin"></i>
+            </a>
+          </div>
+
         </div>
-      </footer>
+
+        <hr className="border-secondary" />
+
+        <div className="text-center pb-3">
+          <p className="mb-0">© 2026 MyStore. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
 
 
 
